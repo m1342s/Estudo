@@ -1,0 +1,24 @@
+.titulo{
+    display: flex;
+    justify-content: center;
+}
+.pessoaDev{
+    color:blue
+}
+.ancora{
+    color: blue;
+}
+
+.sobreNos{
+    background-color: blue;
+    color: white;
+}
+.oferecidos{
+    color: blue;
+}
+
+.copyright{
+    background: black;
+    color:white;
+    text-align: center;
+}

@@ -1,0 +1,62 @@
+body {
+  background: black;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+header {
+  padding-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.h1 {
+  color: white;
+  font-family: "Inter";
+  display: flex;
+  justify-content: center;
+}
+.allUsers {
+  max-width: 700px;
+  display: flex;
+}
+ul {
+  display: flex;
+  justify-content: center;
+}
+li {
+  width: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#userImg {
+  width: 100px;
+  height: 100px;
+  border-radius: 4px;
+  border: 2px solid black;
+}
+#userImg:hover {
+  border-color: white;
+}
+p {
+  color: white;
+  font-family: "Inter";
+}
+.buttonDiv {
+  display: flex;
+  justify-content: center;
+}
+button {
+  height: 40px;
+  width: 180px;
+  border-radius: 8px;
+  font-family: "Inter";
+  background-color: black;
+  color: white;
+  border-color: white;
+}
+button:hover {
+  background: white;
+  color: black;
+}
